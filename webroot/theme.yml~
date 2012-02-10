@@ -1,0 +1,19 @@
+name: Midhtnight
+description: A Modified Theme converted to HTML5
+screenshot: screenshot.png
+
+author: Jon Bethea
+authorEmail: jb@theblacktech.com
+authorUrl: http://theblacktech.com
+
+menus:
+	- main
+	- footer
+	
+regions:
+	- left
+	- right
+
+vocabularies:
+	- categories
+	- tags

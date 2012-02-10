@@ -1,0 +1,19 @@
+name: Midnight
+description: A Modified Theme converted to HTML5
+screenshot: screenshot.jpg
+
+author: Jon Bethea
+authorEmail: jon@nocturnalinc.com
+authorUrl: http://nocturnalinc.com
+
+menus:
+	- main
+	- footer
+	
+regions:
+	- left
+	- right
+
+vocabularies:
+	- categories
+	- tags
