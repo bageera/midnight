@@ -9,9 +9,9 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #010101 url(../img/img01.jpg) no-repeat left top;
-	font-family: Georgia, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #ccc;
+	color: #616161;
 }
 
 h1, h2, h3 {
@@ -26,8 +26,7 @@ h1 {
 }
 
 h2 {
-	font-size: 4.8em;
-	font-weight: bolder;
+	font-size: 2.8em;
 }
 
 h3 {
@@ -216,29 +215,6 @@ a:hover {
 	padding: 30px 30px;
 }
 
-
-.node-body p {
-
-	margin: 8px 5px 0px 0px;
-	font-size: 16px;
-	line-height: 1.5;
-	font-weight: lighter;
-
-}
-
-
-#q	{
-	width: 200px;
-}
-
-
-.block-body {
-
-	position: relative;
-	margin-bottom: 20px;
-
-}
-
 /* Content */
 
 #content {
@@ -328,6 +304,7 @@ a:hover {
 	margin: 0px;
 	padding: 30px 0px 0px 0px;
 	color: #787878;
+	text-align: center;
 }
 
 #sidebar ul {
@@ -371,13 +348,6 @@ a:hover {
 	letter-spacing: -.5px;
 	font-size: 1.8em;
 	color: #B23C1C;
-}
-
-
-#sidebar h3 {
-
-	text-align: center;
-	margin-bottom: 0;
 }
 
 #sidebar p {
@@ -472,7 +442,7 @@ a:hover {
 
 #footer {
 	height: 50px;
-	margin: 0 auto;
+	margin-top: 2em;
 	padding: 0px 0 15px 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -518,13 +488,25 @@ a:hover {
 	width: 252px;
 	height: 38px;
 	padding: 15px 0px 0px 0px;
-	background: url(images/img07.jpg) no-repeat left top;
+	background: url(../img/img07.jpg) no-repeat left top;
 	letter-spacing: -2px;
 	text-align: center;
 	text-transform: lowercase;
 	font-size: 30px;
 	color: #FFFFFF;
 }
+
+.block-body {
+	
+	margin-bottom: 1em;
+	
+}
+
+.node-type-blog {
+	
+	margin-bottom: 2em;
+}
+
 .comments h3 {
 font-size:24px;
 margin-bottom:20px;
