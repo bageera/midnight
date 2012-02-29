@@ -64,7 +64,7 @@ a:hover {
 
 #header {
 	width: 900px;
-	height: 150px;
+	height: 190px;
 	margin: 0 auto;
 	padding: 0px 50px;
 }
@@ -223,49 +223,7 @@ a:hover {
 	padding: 50px 0px 0px 0px;
 }
 
-.post {
-	overflow: hidden;
-	margin-bottom: 40px;
-	border-bottom: 1px dotted #1B1B1B;
-}
 
-.post .title {
-	height: 41px;
-	padding: 7px 0px 0px 0px;
-	letter-spacing: -1px;
-}
-
-.post .title a {
-	border: none;
-	text-transform: lowercase;
-	color: #B23C1C;
-}
-
-.post .meta {
-	margin-bottom: 30px;
-	padding: 0px;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-}
-
-.post .meta .date {
-	float: left;
-}
-
-.post .meta .posted {
-	float: right;
-}
-
-.post .meta a {
-}
-
-.post .entry {
-	padding: 0px 0px 20px 0px;
-	padding-bottom: 20px;
-	text-align: justify;
-}
 
 .links {
 	padding-top: 20px;
@@ -495,16 +453,85 @@ a:hover {
 	font-size: 30px;
 	color: #FFFFFF;
 }
-
-.block-body {
+/****
+ * 
+ * Style for Display posts
+ * 
+ */
+.node-body {
 	
-	margin-bottom: 1em;
+	margin-top: 1em;
 	
 }
 
 .node-type-blog {
 	
+	margin-bottom: 3em;
+	border-bottom: 1px dotted #1b1b1b;
+}
+
+.node-type-blog h2 {
+	height: 41px;
+	padding: 7px 0px 0px 0px;
+	letter-spacing: -1px;
+	
+}
+
+.node-type-blog h2 a {
+	
+	border: none;
+	text-transform: lowercase;
+	color: #B23C1C;
+	
+}
+
+.node-more-info {
+	
 	margin-bottom: 2em;
+}
+
+.node-info {
+	
+	padding: 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+.node-info .date {
+	
+	float: right;
+	
+}
+
+
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
 }
 
 .comments h3 {
