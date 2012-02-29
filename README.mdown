@@ -4,6 +4,7 @@
 
 <h2>Description</h2>
 <p>this is a html5 version of a theme from freecsstemplate.org</p>
+<p>Using 960 grid</p>
 
 <h2>How to Use</h2>
 <hr>
