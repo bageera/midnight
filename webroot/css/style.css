@@ -8,7 +8,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #010101 url(..../img../img01.jpg) no-repeat left top;
+	background: #010101 url(../img/img01.jpg) no-repeat left top;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #616161;
@@ -52,7 +52,7 @@ a:hover {
 #wrapper {
 	margin: 0 auto;
 	padding: 0;
-	background: url(img../img03.gif) no-repeat center top;
+	background: url(images/img03.gif) no-repeat center top;
 }
 
 .container {
@@ -187,7 +187,7 @@ a:hover {
 	height: 20px;
 	margin-right: 1px;
 	padding: 100px 20px 15px 20px;
-	background: url(img../img06.gif) no-repeat left 12px;
+	background: url(images/img06.gif) no-repeat left 12px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -237,7 +237,7 @@ a:hover {
 	height: 25px;
 	padding: 2px 0px 0px 0px;
 	margin-right: 10px;
-	background: url(img../img08.jpg) no-repeat left top;
+	background: url(images/img08.jpg) no-repeat left top;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -248,7 +248,7 @@ a:hover {
 	width: 88px;
 	height: 25px;
 	padding: 2px 0px 0px 0px;
-	background: url(img../img08.jpg) no-repeat left top;
+	background: url(images/img08.jpg) no-repeat left top;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -360,7 +360,7 @@ a:hover {
 	overflow: hidden;
 	width: 890px;
 	padding: 30px 55px 50px 55px;
-	background: url(img../img05.jpg) no-repeat left bottom;
+	background: url(images/img05.jpg) no-repeat left bottom;
 }
 
 #footer-content h2 {
@@ -446,7 +446,7 @@ a:hover {
 	width: 252px;
 	height: 38px;
 	padding: 15px 0px 0px 0px;
-	background: url(..../img../img07.jpg) no-repeat left top;
+	background: url(../img/img07.jpg) no-repeat left top;
 	letter-spacing: -2px;
 	text-align: center;
 	text-transform: lowercase;

@@ -16,7 +16,7 @@
     <body>
     
     
-		<header class="container_12">
+		<header id="header" class="container_12">
 			<h1 id="logo" class="grid_6"><?php echo $html->link(Configure::read('Site.title'), '/'); ?></h1>
 			<div id="tagline" class="grid_5"><?=Configure::read('Site.tagline')?></div>
 			<div class="clear"></div>
