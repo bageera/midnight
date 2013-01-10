@@ -1,0 +1,469 @@
+/*This file is to transfer over what is needed from the original css to the twitter bootstrap css that we have on file*/
+
+
+body {
+    background: #010101 url(../img/img01.jpg) no-repeat left top;
+    color: #616161;
+}
+
+h1, h2, h3 {
+    color: #810988;
+}
+
+/* Menu */
+
+#menu {
+    float: right;
+    width: 500px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menu ul {
+    float: right;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    display: block;
+    height: 20px;
+    margin-right: 1px;
+    padding: 100px 20px 15px 20px;
+    background: url(images/img06.gif) no-repeat left 12px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+    background: #C41800;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+
+/* Sidebar */
+
+#sidebar {
+    float: left;
+    top: -150px;
+    width: 280px;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    color: #787878;
+    text-align: center;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li ul {
+    margin: 0px 0px;
+    padding-bottom: 30px;
+}
+
+#sidebar li li {
+    line-height: 35px;
+    border-bottom: 1px dotted #1B1B1B;
+    margin: 0px 30px;
+    border-left: none;
+}
+
+#sidebar li li span {
+    display: block;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#sidebar li li a {
+    padding: 0px 0px 0px 15px;
+}
+
+#sidebar h2 {
+    height: 38px;
+    padding-left: 30px;
+    letter-spacing: -.5px;
+    font-size: 1.8em;
+    color: #B23C1C;
+}
+
+#sidebar p {
+    margin: 0 0px;
+    padding: 0px 30px 20px 30px;
+    text-align: justify;
+}
+
+#sidebar a {
+    border: none;
+    color: #494949;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+    color: #B23C1C;
+}
+
+
+.node-list li, .menu li, .vocabulary li {
+
+    border-bottom: 1px dotted #1B1B1B;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+    padding: 20px;
+}
+
+#calendar table {
+    width: 100%;
+}
+
+#calendar tbody td {
+    text-align: center;
+}
+
+#calendar #next {
+    text-align: right;
+}
+
+/* Three Column Footer Content */
+
+#footer-content {
+    background: #1A1715;
+}
+
+#footer-bg {
+    overflow: hidden;
+    width: 890px;
+    padding: 30px 55px 50px 55px;
+    background: url(images/img05.jpg) no-repeat left bottom;
+}
+
+#footer-content h2 {
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+#footer-content ul {
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+#footer-content a {
+}
+
+#column1 {
+    float: left;
+    width: 290px;
+    margin-right: 30px;
+}
+
+#column2 {
+    float: left;
+    width: 280px;
+}
+
+#column3 {
+    float: right;
+    width: 260px;
+}
+
+/* Footer */
+
+#footer {
+    height: 50px;
+    margin-top: 2em;
+    padding: 0px 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 30px;
+    line-height: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #202020;
+}
+
+#footer a {
+    color: #202020;
+}
+
+#marketing {
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 20px 0px 10px 0px;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+#marketing .text1 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    font-size: 34px;
+    color: #345E9B;
+}
+
+#marketing .text2 {
+    float: right;
+}
+
+#marketing .text2 a {
+    display: block;
+    width: 252px;
+    height: 38px;
+    padding: 15px 0px 0px 0px;
+    background: url(../img/img07.jpg) no-repeat left top;
+    letter-spacing: -2px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+/****
+ *
+ * Style for Display posts
+ *
+ */
+.node-body {
+
+    margin-top: 1em;
+
+}
+
+.node-type-blog {
+
+    margin-bottom: 3em;
+    border-bottom: 1px dotted #1b1b1b;
+}
+
+.node-type-blog h2 {
+    height: 41px;
+    padding: 7px 0px 0px 0px;
+    letter-spacing: -1px;
+
+}
+
+.node-type-blog h2 a {
+
+    border: none;
+    text-transform: lowercase;
+    color: #B23C1C;
+
+}
+
+.node-more-info {
+
+    margin-bottom: 2em;
+}
+
+.node-info {
+
+    padding: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.node-info .date {
+
+    float: right;
+
+}
+
+
+
+.post .meta {
+    margin-bottom: 30px;
+    padding: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.post .meta .date {
+    float: left;
+}
+
+.post .meta .posted {
+    float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+    padding: 0px 0px 20px 0px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.comments h3 {
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.comment-form fieldset,.contact-form fieldset,.login-form fieldset {
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border:1px solid #ddd;
+    margin:20px 10px;
+    padding:20px;
+}
+
+.comment-form fieldset legend,.contact-form fieldset legend,.login-form fieldset legend {
+    font-size:18px;
+    font-weight:700;
+}
+
+.comment-form label,.contact-form label,.login-form label {
+    display:block;
+    float:left;
+    font-weight:700;
+    margin-top:8px;
+    width:80px;
+}
+
+.comment-form .back {
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.comment-form .error-message,.contact-form .error-message,.login-form .error-message {
+    clear:both;
+    color:#cf0000;
+    display:block;
+    font-size:11px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.comment-form input[type=text],.comment-form textarea,.contact-form input[type=text],.contact-form textarea,.login-form input[type=text],.login-form input[type=password],.login-form textarea {
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    background-color:#ecf9f9;
+    border:1px solid #abe3e4;
+    font-size:12px;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+.comment-form input[type=submit],.contact-form input[type=submit],.login-form input[type=submit] {
+    margin-top:10px;
+}
+
+.comment-form input[type=text],.contact-form input[type=text],.login-form input[type=text],.login-form input[type=password] {
+    display:block;
+    float:left;
+    width:300px;
+}
+
+.comment-form textarea,.contact-form textarea {
+    width:380px;
+}
+
+.comments .comment .comment {
+    font-style:normal;
+    margin:0 0 0 40px;
+}
+
+.comment {
+    font-style:normal;
+}
+
+.comment .comment-info {
+    background:#f7f7f7;
+    border:1px solid #ddd;
+    display:block;
+    height:39px;
+}
+
+.comment .avatar img {
+    padding:3px;
+}
+
+.comment .name {
+    color:#000;
+    float:left;
+    font-weight:700;
+    padding:12px 0 8px 10px;
+}
+
+.comment .date {
+    color:#666;
+    float:left;
+    padding:12px 8px 8px;
+}
+
+.comment .comment-body {
+    clear:both;
+    color:#000;
+    font-size:13px;
+    font-style:normal;
+    line-height:20px;
+    margin-bottom:10px;
+    padding:10px 0 3px;
+}
+
+.comment .comment-reply {
+    float:right;
+    padding:14px 5px 10px 0;
+}
+
+.comment .comment-reply a {
+    background:#fff;
+    border:1px solid #ddd;
+    color:#000;
+    font-size:11px;
+    margin-bottom:4px;
+    padding:5px;
+    text-decoration:none;
+    text-transform:lowercase;
+}
+
+.comment .comment-reply a:hover {
+    background:#b3e6c7;
+    border:1px solid #183d27;
+    color:#183d27;
+}

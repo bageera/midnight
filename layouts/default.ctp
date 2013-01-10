@@ -5,39 +5,47 @@
 <?php 
 		echo $layout->meta(); 
 		echo $layout->feed();
-		echo $html->css(array('reset','960','style'));
-		echo $html->script(array('libs/jquery-1.4.2.min', 'libs/modernizr-1.6.min','plugins','script'));
+		echo $html->css(array('bootstrap.min','midnight'));
+		echo $html->script(array('bootstrap.min'));
 		echo $layout->js();
 		echo $scripts_for_layout;
 	?>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<meta charset="utf-8">
 </head>
 
     <body>
     
-    
-		<header id="header" class="container_12">
-			<h1 id="logo" class="grid_6"><?php echo $html->link(Configure::read('Site.title'), '/'); ?></h1>
-			<div id="tagline" class="grid_5"><?=Configure::read('Site.tagline')?></div>
-			<div class="clear"></div>
-			<div id="menu" class="container_12">
-				<?php echo $layout->menu('main'); ?>	
-			</div> <!--! end of #container -->
+        <div class="row">
+		<header id="header">
+
+		        <div class="span6">
+			        <h1 id="logo"><?php echo $html->link(Configure::read('Site.title'), '/'); ?></h1>
+			    </div>
+			    <div id="tagline" class="span3"><?=Configure::read('Site.tagline')?></div>
+
+			    <div id="menu" class="pull-right">
+				    <?php echo $layout->menu('main'); ?>
+			    </div> <!--! end of #container -->
+		````
 		</header>
-    <div class="clear"></div>
-    
-		<div id="main" class="container_12">
-			<div id="content" class="grid_9 alpha">
+        </div>
+
+
+        <div class="row">
+		<div id="main" class="span12">
+			<div id="content" class="span8">
 				<?php echo $content_for_layout; ?>
 			</div>
 		
-			<div id="sidebar" class="grid_3 omega">
+			<div id="sidebar" class="span4">
 				<?php echo $layout->blocks('right'); ?>
 			</div>
 		</div> <!-- end of main -->
+		</div>
     <div class="clear"></div>
     
-		<footer id="footer" class="grid_12">
+		<footer id="footer" class="span12">
 	         <div class="left">Copyright &copy; <?=date('Y')?> <?=Configure::read('Site.title')?>, All Rights Reserved.</div>
 		</footer>
   
