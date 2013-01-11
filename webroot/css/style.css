@@ -3,6 +3,9 @@
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
+
+Modified by Jon Bethea
+Nocturnal Innovations
 */
 
 body {
@@ -158,6 +161,14 @@ a:hover {
 	border: none;
 	background: #B9B9B9;
 	color: #000000;
+}
+
+/* Legend */
+
+legend
+{
+    width: auto;
+    border: none;
 }
 
 /* Menu */
