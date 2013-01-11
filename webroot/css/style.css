@@ -168,7 +168,7 @@ a:hover {
 legend
 {
     width: auto;
-    border: none;
+    border: 0;
 }
 
 /* Menu */

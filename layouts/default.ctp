@@ -16,22 +16,20 @@
 
     <body>
     
-        <div class="row">
-		<header id="header">
+        <div id="header-main" class="row">
+            <div class="span11">
+		        <header id="header">
+			        <h1 id="logo" class="span5><?php echo $html->link(Configure::read('Site.title'), '/'); ?></h1>
 
-		        <div class="span6">
-			        <h1 id="logo"><?php echo $html->link(Configure::read('Site.title'), '/'); ?></h1>
-			    </div>
-			    <div id="tagline" class="span3"><?=Configure::read('Site.tagline')?></div>
+			    <div id="tagline" class="pull-right"><?=Configure::read('Site.tagline')?></div>
+		        </header>
+            </div>
+            <div id="menu">
+            				    <?php echo $layout->menu('main'); ?>
+            			    </div> <!--! end of #container -->
+         </div>
 
-			    <div id="menu" class="pull-right">
-				    <?php echo $layout->menu('main'); ?>
-			    </div> <!--! end of #container -->
-		````
-		</header>
         </div>
-
-
         <div class="row">
 		<div id="main" class="span12">
 			<div id="content" class="span8">

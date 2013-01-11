@@ -10,11 +10,18 @@ h1, h2, h3 {
     color: #810988;
 }
 
+#header-main {
+
+    height: 190px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
 /* Menu */
 
 #menu {
     float: right;
-    width: 500px;
+    /*width: 500px;*/
     height: 90px;
     margin: 0 auto;
     padding: 0;
@@ -56,6 +63,51 @@ h1, h2, h3 {
 
 #menu .current_page_item a {
 }
+
+/* Logo */
+
+#logo {
+    float: left;
+
+    margin: 0;
+    padding: 0;
+    color: #B23C1C;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+    padding: 60px 0px 0px 0px;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    font-size: 3.8em;
+}
+
+#logo h1 a {
+    color: #B23C1C;
+}
+
+#logo p {
+    margin: 0;
+    padding: 0px 0 0 0px;
+    letter-spacing: -1px;
+    font: normal 18px Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #8E8E8E;
+}
+
+#logo p a {
+    color: #8E8E8E;
+}
+
+#logo a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #000000;
+}
+
 
 /* Sidebar */
 
