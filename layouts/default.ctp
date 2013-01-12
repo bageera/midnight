@@ -30,9 +30,9 @@
          </div>
 
         </div>
-        <div class="row">
-		<div id="main" class="span12">
-			<div id="content" class="span8">
+
+		<div id="main" class="row">
+			<div id="content" class="span12">
 				<?php echo $content_for_layout; ?>
 			</div>
 		
@@ -40,7 +40,7 @@
 				<?php echo $layout->blocks('right'); ?>
 			</div>
 		</div> <!-- end of main -->
-		</div>
+
     <div class="clear"></div>
     
 		<footer id="footer" class="span12">
